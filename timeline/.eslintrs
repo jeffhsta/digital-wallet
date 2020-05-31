@@ -1,0 +1,15 @@
+{
+    "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended",
+        "plugin:mocha/recommended"
+    ],
+    "plugins": ["mocha"],
+    "rules": {
+        "mocha/no-mocha-arrows": 0
+    },
+    "env": {
+        "mocha": true
+    }
+}
